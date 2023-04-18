@@ -10,7 +10,7 @@ pipeline {
 
         stage('check-website') {
             steps {
-                sh 'python -m unittest test_website.py'
+                sh 'python test_website.py'
             }
         }
     }
